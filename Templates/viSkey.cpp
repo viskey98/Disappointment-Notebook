@@ -10,10 +10,10 @@
 #define FOR0(i,n) for(i=0;i<n;i++)
 #define FOR(i,j,n) for(i=j;i<n;i++)
 #define FORD(i,j,k) for(i=j;i>=k;i--)
-#define MAX2(a,b) (a)>(b)?(a):(b)
-#define MAX3(a,b,c) (a)>(b)?((a)>(c)?(a):(c)):((b)>(c)?(b):(c))
-#define MIN2(a,b) (a)<(b)?(a):(b)
-#define MIN3(a,b,c) (a)<(b)?((a)<(c)?(a):(c)):((b)<(c)?(b):(c))
+inline long long  MAX2(long long  a, long long int b){return (a)>(b)?(a):(b);}
+inline long long  MAX3(long long  a, long long  b,long long  c){return (a)>(b)?((a)>(c)?(a):(c)):((b)>(c)?(b):(c));}
+inline long long  MIN2(long long  a, long long  b){return (a)<(b)?(a):(b);}
+inline long long  MIN3(long long  a, long long b,long long c){return (a)<(b)?((a)<(c)?(a):(c)):((b)<(c)?(b):(c));}
 using namespace std;
 typedef pair<int,int> ii;
 typedef vector<int> vi;
