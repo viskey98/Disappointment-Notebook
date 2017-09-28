@@ -18,6 +18,7 @@ using namespace std;
 typedef pair<int,int> ii;
 typedef vector<int> vi;
 typedef vector< pair<int,int> > vii;
+typedef long long ll;
 int main()
 {
  
