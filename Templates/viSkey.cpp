@@ -18,6 +18,7 @@ inline long long  MIN3(long long  a, long long b,long long c){return (a)<(b)?((a
 using namespace std;
 typedef pair<int,int> ii;
 typedef vector<int> vi;
+typedef vector<long long> vll;
 typedef vector< pair<int,int> > vii;
 typedef long long ll;
 int main()
