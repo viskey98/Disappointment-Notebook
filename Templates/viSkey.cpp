@@ -7,6 +7,7 @@
 #include<map>
 #include<bits/stdc++.h>
 #include<queue>
+#include<stack>
 #define FOR0(i,n) for(i=0;i<n;i++)
 #define FOR(i,j,n) for(i=j;i<n;i++)
 #define FORD(i,j,k) for(i=j;i>=k;i--)
