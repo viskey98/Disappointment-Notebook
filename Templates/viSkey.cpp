@@ -5,6 +5,7 @@
 #define pb push_back
 #define ff first
 #define ss second
+#define endl '\n'
 inline long long  MAX2(long long  a, long long int b){return (a)>(b)?(a):(b);}
 inline long long  MAX3(long long  a, long long  b,long long  c){return (a)>(b)?((a)>(c)?(a):(c)):((b)>(c)?(b):(c));}
 inline long long  MIN2(long long  a, long long  b){return (a)<(b)?(a):(b);}
