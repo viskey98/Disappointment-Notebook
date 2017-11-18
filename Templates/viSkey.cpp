@@ -16,4 +16,6 @@ typedef vector<long long> vll;
 typedef vector< pair<int,int> > vii;
 typedef long long ll;
 int main()
-{}
+{
+   std::ios::sync_with_stdio(false);	
+}
