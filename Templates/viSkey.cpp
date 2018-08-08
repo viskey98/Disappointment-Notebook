@@ -3,6 +3,7 @@
 #define FOR(i,j,n) for(i=j;i<n;i++)
 #define FORD(i,j,k) for(i=j;i>=k;i--)
 #define pb push_back
+#define mp make_pair
 #define ff first
 #define ss second
 #define inf 1000000000
