@@ -1,6 +1,6 @@
 ll fast_exp(ll base, ll exp)
   {
-    lli res=1;
+    ll res=1;
     while(exp>0)
       {
         if(exp%2==1) res=(res*base)%mod;
