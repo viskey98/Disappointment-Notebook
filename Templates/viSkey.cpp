@@ -8,17 +8,24 @@
 #define ss second
 #define inf 1000000000
 #define ninf -1000000000
+#define endl '\n' 
+#define she_told_me_dont_worry ios_base::sync_with_stdio (false) ; cin.tie(0) ; cout.tie(0) ;
+// Use cout.flush() for interactive problems.
+// Use this for increased stack size: g++ -o a.exe -Wl,--stack=256000000 -O2 source.cpp
 inline long long  MAX2(long long  a, long long int b){return (a)>(b)?(a):(b);}
 inline long long  MAX3(long long  a, long long  b,long long  c){return (a)>(b)?((a)>(c)?(a):(c)):((b)>(c)?(b):(c));}
 inline long long  MIN2(long long  a, long long  b){return (a)<(b)?(a):(b);}
 inline long long  MIN3(long long  a, long long b,long long c){return (a)<(b)?((a)<(c)?(a):(c)):((b)<(c)?(b):(c));}
 using namespace std;
-typedef pair<int,int> ii;
-typedef vector<int> vi;
-typedef vector<long long> vll;
-typedef vector< pair<int,int> > vii;
 typedef long long ll;
+typedef pair<int,int> ii;
+typedef pair<ll, ll> pll;
+typedef vector<int> vi;
+typedef vector<ll> vll;
+typedef vector< ii > vii;
 int main()
 {
+    she_told_me_dont_worry
     
+    cerr <<endl<< "Time elapsed : " << clock() * 1000.0 / CLOCKS_PER_SEC << " ms" << '\n';
 }
